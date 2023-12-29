@@ -1,7 +1,7 @@
 package org.padulano.fabrizio.algorithms;
 
 /**
- * Hello world!
+ * Test the algos here.
  *
  */
 public class App 
