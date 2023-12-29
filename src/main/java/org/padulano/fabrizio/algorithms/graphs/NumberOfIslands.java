@@ -13,7 +13,7 @@ import java.util.Set;
  * Output: 3
  */
 public class NumberOfIslands {
-    public int numIslands(char[][] grid) {
+    public static int numIslands(char[][] grid) {
         int count = 0;
         Set<String> visited = new HashSet<>();
 
@@ -26,7 +26,7 @@ public class NumberOfIslands {
         return count;
     }
 
-    private boolean dfs(char[][] grid, int r, int c, Set<String> visited) {
+    private static boolean dfs(char[][] grid, int r, int c, Set<String> visited) {
         if (r < 0 || r >= grid.length || c < 0 || c >= grid[0].length) {
             return false;
         }
