@@ -5,6 +5,9 @@ import org.apache.commons.lang3.tuple.Pair;
 
 import java.util.Stack;
 
+/*
+    https://leetcode.com/problems/largest-rectangle-in-histogram/
+ */
 public class LargestRectangleInHistogram {
     public static int largestRectangleArea(int[] heights) {
         int area = 0, n = heights.length;
